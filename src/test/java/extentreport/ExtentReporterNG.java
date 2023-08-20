@@ -1,4 +1,4 @@
-package mercariextentreport;
+package extentreport;
 
 import java.io.File;
 import java.io.IOException;

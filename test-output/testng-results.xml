@@ -2,48 +2,48 @@
 <testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-08-20T16:26:23 IST" name="Mercari Automation Suite" finished-at="2023-08-20T16:28:01 IST" duration-ms="98335">
+  <suite started-at="2023-08-20T17:05:01 IST" name="Mercari Automation Suite" finished-at="2023-08-20T17:06:30 IST" duration-ms="89027">
     <groups>
     </groups>
-    <test started-at="2023-08-20T16:26:23 IST" name="Mercari Automation Test" finished-at="2023-08-20T16:28:01 IST" duration-ms="98335">
+    <test started-at="2023-08-20T17:05:01 IST" name="Mercari Web Automation Test" finished-at="2023-08-20T17:06:30 IST" duration-ms="89027">
       <class name="mercaritestscenarios.Scenario2">
-        <test-method is-config="true" signature="setup()[pri:0, instance:mercaritestscenarios.Scenario2@12591ac8]" started-at="2023-08-20T16:26:23 IST" name="setup" finished-at="2023-08-20T16:27:10 IST" duration-ms="47826" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:mercaritestscenarios.Scenario2@12591ac8]" started-at="2023-08-20T17:05:01 IST" name="setup" finished-at="2023-08-20T17:05:38 IST" duration-ms="37501" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="VerifyTier1Category()[pri:1, instance:mercaritestscenarios.Scenario2@12591ac8]" started-at="2023-08-20T16:27:10 IST" name="VerifyTier1Category" finished-at="2023-08-20T16:27:17 IST" duration-ms="6162" status="PASS">
+        <test-method signature="VerifyTier1Category()[pri:1, instance:mercaritestscenarios.Scenario2@12591ac8]" started-at="2023-08-20T17:05:38 IST" name="VerifyTier1Category" finished-at="2023-08-20T17:05:45 IST" duration-ms="6439" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifyTier1Category -->
-        <test-method signature="VerifyTier2Category()[pri:2, instance:mercaritestscenarios.Scenario2@12591ac8]" started-at="2023-08-20T16:27:17 IST" name="VerifyTier2Category" finished-at="2023-08-20T16:27:17 IST" duration-ms="130" status="PASS">
+        <test-method signature="VerifyTier2Category()[pri:2, instance:mercaritestscenarios.Scenario2@12591ac8]" started-at="2023-08-20T17:05:45 IST" name="VerifyTier2Category" finished-at="2023-08-20T17:05:45 IST" duration-ms="94" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifyTier2Category -->
-        <test-method signature="VerifyTier3Category()[pri:3, instance:mercaritestscenarios.Scenario2@12591ac8]" started-at="2023-08-20T16:27:17 IST" name="VerifyTier3Category" finished-at="2023-08-20T16:27:17 IST" duration-ms="78" status="PASS">
+        <test-method signature="VerifyTier3Category()[pri:3, instance:mercaritestscenarios.Scenario2@12591ac8]" started-at="2023-08-20T17:05:45 IST" name="VerifyTier3Category" finished-at="2023-08-20T17:05:45 IST" duration-ms="81" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifyTier3Category -->
-        <test-method signature="Verify2BrowsingHistory()[pri:4, instance:mercaritestscenarios.Scenario2@12591ac8]" started-at="2023-08-20T16:27:17 IST" name="Verify2BrowsingHistory" finished-at="2023-08-20T16:27:17 IST" duration-ms="24" status="PASS">
+        <test-method signature="Verify2BrowsingHistory()[pri:4, instance:mercaritestscenarios.Scenario2@12591ac8]" started-at="2023-08-20T17:05:45 IST" name="Verify2BrowsingHistory" finished-at="2023-08-20T17:05:45 IST" duration-ms="37" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Verify2BrowsingHistory -->
-        <test-method signature="VerifyLatestHistory1()[pri:5, instance:mercaritestscenarios.Scenario2@12591ac8]" started-at="2023-08-20T16:27:17 IST" name="VerifyLatestHistory1" finished-at="2023-08-20T16:27:27 IST" duration-ms="10073" status="PASS">
+        <test-method signature="VerifyLatestHistory1()[pri:5, instance:mercaritestscenarios.Scenario2@12591ac8]" started-at="2023-08-20T17:05:45 IST" name="VerifyLatestHistory1" finished-at="2023-08-20T17:05:55 IST" duration-ms="10080" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifyLatestHistory1 -->
-        <test-method signature="VerifySearchConditions()[pri:6, instance:mercaritestscenarios.Scenario2@12591ac8]" started-at="2023-08-20T16:27:27 IST" name="VerifySearchConditions" finished-at="2023-08-20T16:27:35 IST" duration-ms="8559" status="PASS">
+        <test-method signature="VerifySearchConditions()[pri:6, instance:mercaritestscenarios.Scenario2@12591ac8]" started-at="2023-08-20T17:05:55 IST" name="VerifySearchConditions" finished-at="2023-08-20T17:06:04 IST" duration-ms="8839" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifySearchConditions -->
-        <test-method signature="Verify3BrowsingHistory()[pri:7, instance:mercaritestscenarios.Scenario2@12591ac8]" started-at="2023-08-20T16:27:35 IST" name="Verify3BrowsingHistory" finished-at="2023-08-20T16:28:01 IST" duration-ms="25291" status="PASS">
+        <test-method signature="Verify3BrowsingHistory()[pri:7, instance:mercaritestscenarios.Scenario2@12591ac8]" started-at="2023-08-20T17:06:04 IST" name="Verify3BrowsingHistory" finished-at="2023-08-20T17:06:30 IST" duration-ms="25759" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Verify3BrowsingHistory -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:mercaritestscenarios.Scenario2@12591ac8]" started-at="2023-08-20T16:28:01 IST" name="teardown" finished-at="2023-08-20T16:28:01 IST" duration-ms="129" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:mercaritestscenarios.Scenario2@12591ac8]" started-at="2023-08-20T17:06:30 IST" name="teardown" finished-at="2023-08-20T17:06:30 IST" duration-ms="126" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- mercaritestscenarios.Scenario2 -->
-    </test> <!-- Mercari Automation Test -->
+    </test> <!-- Mercari Web Automation Test -->
   </suite> <!-- Mercari Automation Suite -->
 </testng-results>

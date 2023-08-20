@@ -4,12 +4,12 @@
 	
 	<listeners>
 		<listener 
-		class-name="mercariextentreportlisterner.Listeners"/>
+		class-name="extentreportlisterner.Listeners"/>
 	</listeners>
 	
   <test name="Mercari Web Automation Test">
     <classes>
-      <class name="mercaritestscenarios.Scenario2"/>
+      <class name="testscenarios.Scenario2"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

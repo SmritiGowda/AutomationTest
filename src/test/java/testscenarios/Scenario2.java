@@ -1,4 +1,4 @@
-package mercaritestscenarios;
+package testscenarios;
 
 import org.testng.annotations.Test;
 
