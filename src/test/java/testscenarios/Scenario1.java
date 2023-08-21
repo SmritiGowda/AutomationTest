@@ -63,8 +63,6 @@ public class Scenario1 {
 			WebElement Tier1 = select.getFirstSelectedOption(); 
 			// Fetching the selected value's text and storing it in a variable
 			String Tier1category = Tier1.getText(); 
-			// Printing a text of the Tier1 Category's selected value
-			System.out.println(Tier1category); 
 			// Initializing the Tier1 Category to a variable 'ExpectedTier1'
 			String Expectedtier1="本・音楽・ゲーム";
 			// Initializing the drop down's selected value to a variable 'ActualTier1'
@@ -83,8 +81,6 @@ public class Scenario1 {
 			WebElement Tier2 = select.getFirstSelectedOption(); 
 			// Fetching the selected value's text and storing it in a variable
 			String Tier2category = Tier2.getText(); 
-			// Printing a text of the Tier2 Category's selected value
-			System.out.println(Tier2category); 
 			 // Initializing the Tier2 Category to a variable 'ExpectedTier2'
 			String Expectedtier2="本"; 
 			// Initializing the drop down's selected value to a variable 'ActualTier2'

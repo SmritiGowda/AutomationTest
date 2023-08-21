@@ -77,8 +77,6 @@ public class Scenario2 extends Scenario1{
 	{
 			// Finding the browsing history elements 
 			List <WebElement> history2 = driver.findElements(By.xpath("//div[contains(@class,'merList border__17a1e07b separator__17a1e07b')]//p")); 
-			// Printing the size of browsing histories
-			System.out.println("The size is " + (history2.size())); 
 			// Verifying the history size equals to 2
 			Assert.assertEquals(history2.size(), 2);
 	}
@@ -126,8 +124,6 @@ public class Scenario2 extends Scenario1{
 			Thread.sleep(8000);
 			// Finding the browsing history elements
 			List <WebElement> history3 = driver.findElements(By.xpath("//div[contains(@class,'merList border__17a1e07b separator__17a1e07b')]//p"));
-			// Printing the size of browsing histories
-			System.out.println("The size is :" + (history3.size())); 
 			// Verifying the history size equals to 3
 			Assert.assertEquals(history3.size(), 3);
 		
@@ -136,8 +132,6 @@ public class Scenario2 extends Scenario1{
 			Thread.sleep(8000);
 			// Fetching the text of a latest browsing history
 			String latest2= driver.findElement(By.xpath("(//div[contains(@class,'content__884ec505')])[3]")).getText();
-			// Printing the text of a latest browsing history
-			System.out.println("Latest text is: " + latest2);
 			// Initializing the expected latest browsing history to a variable 'ExpectedLatestFromHistory3'
 			String ExpectedLatestFromHistory3="javascript, コンピュータ/IT";
 			// Verifying that the latest browsing history is matching with expected latest browsing history
