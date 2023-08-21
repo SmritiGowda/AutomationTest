@@ -14,15 +14,15 @@ public class ExtentReporterNG {
 
 	@Test
 	public static ExtentReports getReportObject()
-	{
-		String path=System.getProperty("user.dir")+"//reports//Report.html";
-		ExtentSparkReporter reporter=new ExtentSparkReporter(path);
-		reporter.config().setReportName("Mercari Web Automation Test Report");
-		reporter.config().setDocumentTitle("Mercari Web Automation Test Report");
+	{	
+			String path=System.getProperty("user.dir")+"//reports//Report.html";
+			ExtentSparkReporter reporter=new ExtentSparkReporter(path);
+			reporter.config().setReportName("Web Automation Test Report");
+			reporter.config().setDocumentTitle("Web Automation Test Report");
 		
-		ExtentReports extent=new ExtentReports();
-		extent.attachReporter(reporter);
-		return extent;
+			ExtentReports extent=new ExtentReports();
+			extent.attachReporter(reporter);
+			return extent;
 	}
 }
 	
